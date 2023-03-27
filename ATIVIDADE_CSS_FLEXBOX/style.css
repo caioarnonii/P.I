@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(Minecraft.ttf);
+}
+
+.flex {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.base {
+    margin-bottom: 70px;
+    background-color: rgb(192, 192, 192);
+    border-radius: 7px;
+}
+
+
+
+.box1 {
+    background-color: rgb(0, 161, 161);
+}
+
+.box2 {
+    background-color: rgb(17, 17, 54);
+}
+
+.box3 {
+    background-color: rgb(184, 0, 46);
+}
+
+.box4 {
+    background-color: rgb(177, 167, 26)
+}
+
+.h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.titulo {
+    text-align: center;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: baseline;
+}
+
+.container2 {
+    display: flex;
+    justify-content: end;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container8 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
